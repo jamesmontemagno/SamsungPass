@@ -1,0 +1,3 @@
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass.Sample/obj/Debug/MonoAndroid,Version=v5.0.AssemblyAttribute.cs
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass.Sample/bin/Debug/SamsungPass.dll
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass.Sample/bin/Debug/SamsungPass.dll.mdb

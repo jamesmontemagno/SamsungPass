@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<api>
+<package name="com.samsung.android.sdk.pass">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="Spass" static="false" visibility="public">
+<implements name="com.samsung.android.sdk.SsdkInterface" name-generic-aware="com.samsung.android.sdk.SsdkInterface">
+</implements>
+<constructor deprecated="not deprecated" final="false" name="Spass" static="false" type="com.samsung.android.sdk.pass.Spass" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getVersionCode" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="getVersionName" native="false" return="java.lang.String" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="initialize" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+<exception name="SsdkUnsupportedException" type="com.samsung.android.sdk.SsdkUnsupportedException">
+</exception>
+</method>
+<method abstract="false" deprecated="not deprecated" final="false" name="isFeatureEnabled" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<field deprecated="not deprecated" final="true" name="DEVICE_FINGERPRINT" static="true" transient="false" type="int" type-generic-aware="int" value="0" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEVICE_FINGERPRINT_CUSTOMIZED_DIALOG" static="true" transient="false" type="int" type-generic-aware="int" value="2" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEVICE_FINGERPRINT_FINGER_INDEX" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+<field deprecated="not deprecated" final="true" name="DEVICE_FINGERPRINT_UNIQUE_ID" static="true" transient="false" type="int" type-generic-aware="int" value="3" visibility="public" volatile="false">
+</field>
+</class>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SpassFingerprint.IdentifyListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+<parameter name="p0" type="int">
+</parameter>
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onReady" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+<method abstract="true" deprecated="not deprecated" final="false" name="onStarted" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<interface abstract="true" deprecated="not deprecated" final="false" name="SpassFingerprint.RegisterListener" static="true" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="onFinished" native="false" return="void" static="false" synchronized="false" visibility="public">
+</method>
+</interface>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SpassFingerprint.a" obfuscated="true" static="true" visibility="">
+<constructor deprecated="not deprecated" final="false" name="SpassFingerprint.a" static="false" type="com.samsung.android.sdk.pass.SpassFingerprint.a" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="true" name="a" native="false" return="android.os.Bundle" static="false" synchronized="false" visibility="public">
+</method>
+</class>
+<class abstract="false" deprecated="not deprecated" extends="java.lang.IllegalStateException" extends-generic-aware="java.lang.IllegalStateException" final="false" name="SpassInvalidStateException" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="SpassInvalidStateException" static="false" type="com.samsung.android.sdk.pass.SpassInvalidStateException" visibility="public">
+<parameter name="p0" type="java.lang.String">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="getType" native="false" return="int" static="false" synchronized="false" visibility="public">
+</method>
+<field deprecated="not deprecated" final="true" name="STATUS_OPERATION_DENIED" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+</field>
+</class>
+</package>
+<package name="com.samsung.android.sdk.pass.support"/>
+<package name="com.samsung.android.sdk.pass.support.v1">
+<class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="FingerprintManagerProxyFactory" static="false" visibility="public">
+<constructor deprecated="not deprecated" final="false" name="FingerprintManagerProxyFactory" static="false" type="com.samsung.android.sdk.pass.support.v1.FingerprintManagerProxyFactory" visibility="public">
+</constructor>
+<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.samsung.android.sdk.pass.support.IFingerprintManagerProxy" static="true" synchronized="false" visibility="public">
+<parameter name="p0" type="android.content.Context">
+</parameter>
+</method>
+</class>
+</package>
+</api>

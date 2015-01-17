@@ -1,0 +1,7 @@
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/obj/Debug/MonoAndroid,Version=v4.2.AssemblyAttribute.cs
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/obj/Debug/SamsungPass.Jars.pass-v1.1.1.jar
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/obj/Debug/SamsungPass.Jars.sdk-v1.0.0.jar
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/bin/Debug/SamsungPass.dll.mdb
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/bin/Debug/SamsungPass.dll
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/obj/Debug/SamsungPass.dll
+/Users/jamesmontemagno/Projects/SamsungPass/SamsungPass/obj/Debug/SamsungPass.dll.mdb
